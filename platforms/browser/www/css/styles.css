@@ -1,0 +1,179 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+@import url('https://fonts.googleapis.com/css?family=Rajdhani&display=swap');
+
+* {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.statusbar-overlay {
+    background: #000000;
+}
+
+.navbar {
+    background-color: rgb(69, 113, 181);
+    color: white;
+}
+
+.icon-only {
+    background-color: #cbe708;
+    border-radius: 5px;
+}
+
+.navbar,
+.toolbar {
+    height: 65px;
+}
+
+.back.link span {
+    color: #cbe708;
+}
+
+.icon.icon-back {
+    width: 30px;
+    height: 30px;
+}
+
+.panel-left,
+.panel-right {
+    background-color: white;
+    border-right: 2px solid white;
+}
+
+
+/*=======================================
+=                 General               =
+=======================================*/
+
+.color-blanco {
+    color: white;
+}
+
+.color-azul {
+    color: #4471b5;
+}
+
+.ancho-maximo {
+    max-width: 350px;
+}
+
+.fondo-degradado {
+    background-color: rgba(53, 72, 116, 0.4);
+}
+
+.fondo-app {
+    background-image: url(../img/fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    font-size: 14pt !important;
+}
+
+hr.separador {
+    border: 0;
+    border-top: 1px solid #ffffff;
+    opacity: 0.2;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+
+/*==================================
+=            Index page            =
+==================================*/
+
+#menu-ecotel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 6em;
+}
+
+/*======================================
+=            Ecotel TV page            =
+======================================*/
+.content-ecotel-tv {
+    color: white;
+    background-color: rgba(1, 1, 1, 0.6);
+    padding: 1em;
+    border-radius: 1em;
+}
+
+#video {
+    width: 100%;
+}
+
+/*=======================================
+=                Paneles                =
+=======================================*/
+
+.estilo-titulos {
+    color: #cbe708;
+    -webkit-text-stroke: 1px white;
+    text-align: center;
+}
+
+.panel .block-title {
+    margin: 0;
+}
+
+/*=======================================
+=            Panel Izquierdo            =
+=======================================*/
+
+.panel.panel-left a {
+    font-size: 18pt;
+}
+
+
+/*=======================================
+=             Panel Derecho             =
+=======================================*/
+
+.redes-sociales {
+    border: 2px solid #4471b5;
+    border-radius: 1em;
+}
+
+
+/*=======================================
+=              Contáctanos              =
+=======================================*/
+
+.flex-box{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.vertical-center {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hipervinculos{
+    text-decoration: underline;
+    color: white;
+}

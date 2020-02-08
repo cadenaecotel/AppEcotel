@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Ecotel",
+  "short_name": "Ecotel",
+  "version": "com.ecotel.appMovil",
+  "description": "Aplicación de la Cadena Ecotel para la TV y Radio.",
+  "author": "Cadena Ecotel",
+  "icons": [],
+  "start_url": "index.html"
+}
